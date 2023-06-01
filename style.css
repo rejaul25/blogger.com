@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1-h {
+    display: flex;
+    /* background-color: green; */
+    padding: 22px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+
+}
+
+.menu-list {
+    margin-left: 480px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.menu-list a:hover {
+    color: rgb(179, 115, 115);
+}
+
+/* ..........this is body content zone .... */
+
+.my-head-con {
+
+    width: 100%;
+    height: 540px;
+    background-color: #f2f2f2;
+}
+
+.head-con-all {
+    display: flex;
+    margin-left: 55px;
+}
+
+.head-con-l {
+    width: 30%;
+    height: 540px;
+    /* background-color: red; */
+}
+
+.head-con-l1 {
+    width: 100%;
+    height: 220px;
+    margin-top: 35px;
+    border-radius: 5px;
+    background-image: url(gallery/speaking-img-2.jpg);
+    /* background-color: yellowgreen; */
+}
+
+.head-con-l2 {
+    width: 100%;
+    height: 220px;
+    /* background-color: khaki; */
+    margin-top: 45px;
+    border-radius: 5px;
+
+    background-image: url(gallery/blog-img-1-p.jpg);
+}
+
+.head-con-l1-det {
+    font-size: 0.85rem;
+    position: relative;
+    top: 120px;
+    left: 15px;
+}
+
+.head-con-m {
+    width: 30%;
+    margin-top: 35px;
+    /* background-color: purple; */
+}
+
+.head-con-1 {
+    width: 100%;
+    height: 485px;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-image: url(gallery/blog-3-img.webp);
+    /* background-color: saddlebrown; */
+}
+
+.head-con-det {
+    width: 95%;
+    font-size: 0.8rem;
+    position: relative;
+    top: 380px;
+    left: 15px;
+}
+
+.head-con-r {
+    width: 30%;
+    position: relative;
+    margin-left: 35px;
+    left: 35px;
+
+    /* background-color: blueviolet; */
+}
+
+
+
+.head-con-r1 {
+    width: 100%;
+    height: 220px;
+    margin-top: 35px;
+    border-radius: 5px;
+
+    background-image: url(gallery/speaking-img-2.jpg);
+    /* background-color: yellowgreen; */
+}
+
+.head-con-r2 {
+    width: 100%;
+    height: 220px;
+    /* background-color: khaki; */
+    margin-top: 45px;
+    border-radius: 5px;
+
+    background-image: url(gallery/blog.jpeg);
+}
+
+
+/* .......up-all 1 body ares content csss... */
+
+.section-3-all {
+    margin-left: 30px;
+    background-color: #fff;
+}
+
+.recent-post {
+    width: 80%;
+    padding-top: 50px;
+    padding-left: 52px;
+    padding-bottom: 30px;
+
+}
+
+.recent-post h3 {
+    font-size: 1.5rem;
+    color: rgb(27, 25, 25);
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* font-family: 'Signika Negative', sans-serif; */
+
+}
+
+
+
+
+/* ....big content zone .... */
+
+.section-3-mp {
+    display: flex;
+    width: 100%;
+
+}
+
+.sec3-mp-1 {
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 30%;
+
+}
+
+.recent-post-all {
+    width: 370px;
+    height: 240px;
+}
+
+.sec3-mp-2 {
+    width: 30%;
+
+}
+
+.sec3-mp-3 {
+    width: 30%;
+
+}
+
+
+.sec3-mp-1 img {
+    /* margin-left: 55px; */
+    border-radius: 5px;
+}
+
+.btn button {
+    margin-left: 20px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 5px;
+    /* padding: 1px; */
+    line-height: 1.7;
+    width: 80px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff !important;
+    background-color: #6c757d !important;
+}
+
+.sec3-mp-1 h2 {
+    width: 85%;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.post-det {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.post-more-det {
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.post-more-det p {
+    width: 85%;
+    font-size: 0.9rem;
+    font-family: 'Signika Negative', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1.1px;
+    word-spacing: 1.4px;
+    color: #666666;
+
+    margin-left: 25px;
+}
+
+.read-more {
+    margin-top: 15px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.read-more a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(59, 59, 124);
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.read-more a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.next-pages-b {
+    width: 100%;
+    border: 1px solid rgb(160, 151, 151);
+    border-left: 0;
+    border-right: 0;
+    height: 120px;
+    /* margin-bottom: 25px; */
+    margin-top: 25px;
+    background-color: #fff;
+}
+
+/* ....big content zone .... */
+
+/* .....last part of this site ... */
+.section-4-all {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+
+    background-color: #f2f2f2;
+}
+
+.section-4-12 {
+    /* display: flex; */
+    width: 627px;
+    height: 320px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    margin-top: 70px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.section-4-1 button {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 85px;
+    padding: 2px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(100, 34, 221);
+    letter-spacing: 1.5px;
+}
+
+
+.last-det-d {
+    width: 65%;
+    margin-top: 155px;
+    margin-left: 25px;
+
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section4-4-12 {
+    display: flex;
+
+}
+
+.section4-121 {
+    width: 300px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.section4-121 button {
+    width: 65px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 15px;
+    margin-top: 18px;
+    color: white;
+    padding: 3px;
+    background-color: royalblue;
+}
+
+.section4-121-det {
+    margin-top: 65px;
+    width: 85%;
+    margin-left: 15px;
+    font-size: 0.9rem;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-4-l-side {
+    margin-left: 110px;
+}
+
+.section-4-r-side {
+    width: 385px;
+    height: 555px;
+    margin-left: 25px;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.button-f button {
+    width: 140px;
+    padding: 2px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.section-4-r-det {
+    margin-top: 350px;
+    width: 83%;
+    margin-left: 15px;
+    font-size: 1.1rem;
+}
+
+
+/* ..................... */
+.footer-and-creadit {
+    width: 100%;
+    height: 380px;
+
+    background-color: #333333;
+}
+
+.footer-part-all {
+    width: 100%;
+
+    display: flex;
+
+
+}
+
+.about-us {
+
+    width: 30%;
+    margin-left: 85px;
+    margin-top: 35px;
+}
+
+.about-us p {
+    color: #949090;
+    margin-top: 30px;
+    line-height: 1.7;
+    font-size: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.web-catagory {
+    width: 30%;
+    display: flex;
+
+
+}
+
+.web-cat-all {
+    display: flex;
+    margin-left: 155px;
+    margin-top: 95px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+
+}
+
+.web-cat-2 {
+    margin-left: 35px;
+}
+
+.web-cat-all a {
+    text-decoration: none;
+    color: #949090;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.web-cat-all a:hover {
+    text-decoration: underline;
+}
+
+.connect-with-us {
+    width: 30%;
+
+}
+
+.connect-with-us-con {
+    margin-top: 85px;
+    margin-left: 45px;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.creadit-part {
+    margin-top: 55px;
+    margin-left: 365px;
+    margin-bottom: 45px;
+
+}
+
+.creadit-part p {
+    color: #1f1616;
+}
+
+.web-name-cr {
+    text-decoration: none;
+    color: #020101;
+}
+
+.web-name-cr:hover {
+    text-decoration: underline;
+}
+
+
+/* .....media quiry zone here...... */
+
+@media only screen and (max-width: 500px) {
+
+    .section-1-h {
+        width: 1000px;
+        display: block;
+        padding: 4px;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+        background-color: green;
+        /* background-color: #fff; */
+
+    }
+
+    .menu-list {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .menu-list a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: black;
+        font-size: 1.6rem;
+        cursor: pointer;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .menu-list a:hover {
+        color: rgb(179, 115, 115);
+    }
+
+    /* ............. header part end here ... */
+
+    .my-head-con {
+
+        width: 1000px;
+        height: 1100px;
+        background-color: #f2f2f2;
+    }
+
+    .head-con-all {
+        display: block;
+        margin-left: 55px;
+    }
+
+    .head-con-l {
+        /* width: 30%; */
+        display: flex;
+        width: 850px;
+        height: 220px;
+        /* background-color: red; */
+    }
+
+    .head-con-l1 {
+        width: 100%;
+        height: 220px;
+        margin-top: 35px;
+        border-radius: 5px;
+        background-image: url(gallery/speaking-img-2.jpg);
+        image-orientation: 100% 100%;
+        /* background-color: yellowgreen; */
+    }
+
+    .head-con-l2 {
+        width: 850px;
+        height: 220px;
+        margin-left: 65px;
+        /* background-color: khaki; */
+        margin-top: 35px;
+        border-radius: 5px;
+
+        background-image: url(gallery/blog-img-1-p.jpg);
+    }
+
+    .head-con-l1-det {
+        width: 95%;
+        font-size: 0.9rem;
+        position: relative;
+        top: 107px;
+        left: 15px;
+    }
+
+    .head-con-m {
+        width: 850px;
+        height: 420px;
+        position: relative;
+        margin-top: 65px;
+        /* background-color: purple; */
+    }
+
+    .head-con-1 {
+        width: 100%;
+        height: 485px;
+        margin-left: 3px;
+        border-radius: 5px;
+        background-image: url(gallery/blog-3-img.webp);
+        /* background-color: saddlebrown; */
+    }
+
+    .head-con-det {
+        width: 95%;
+        font-size: 1.5rem;
+        position: relative;
+        top: 300px;
+        left: 15px;
+    }
+
+    .head-con-r {
+        width: 790px;
+        height: 230px;
+        position: relative;
+
+
+        /* background-color: blueviolet; */
+    }
+
+    .head-con-r-all {
+        margin-left: -65px;
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+
+    .head-con-r1 {
+        width: 550px;
+        height: 230px;
+        margin-top: 35px;
+        margin-right: 40px;
+        border-radius: 5px;
+
+        background-image: url(gallery/speaking-img-2.jpg);
+        /* background-color: yellowgreen; */
+    }
+
+    .head-con-r2 {
+        width: 550px;
+        height: 230px;
+
+        /* background-color: khaki; */
+        margin-top: 35px;
+        border-radius: 5px;
+
+        background-image: url(gallery/blog.jpeg);
+    }
+
+
+    /* .......up-all 1 body ares content csss... */
+
+    .section-3-all {
+        margin-left: 30px;
+        background-color: #fff;
+    }
+
+    .recent-post {
+        width: 80%;
+        padding-top: 50px;
+        padding-left: 52px;
+        padding-bottom: 30px;
+
+    }
+
+    .recent-post h3 {
+        font-size: 1.5rem;
+        color: rgb(27, 25, 25);
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        /* font-family: 'Signika Negative', sans-serif; */
+
+    }
+
+
+    /* ................. head -con ....... */
+
+    .section-3-mp {
+        display: block;
+        width: 100%;
+
+    }
+
+    .sec3-mp-1 {
+        margin-left: 30px;
+        margin-top: 35px;
+        width: 100%;
+
+    }
+
+    .recent-post-all {
+        width: 850px;
+        height: 540px;
+    }
+
+    .sec3-mp-2 {
+        width: 30%;
+
+    }
+
+    .sec3-mp-3 {
+        width: 30%;
+
+    }
+
+
+    .sec3-mp-1 img {
+        /* margin-left: 55px; */
+        border-radius: 5px;
+    }
+
+    .btn button {
+        margin-left: 20px;
+        margin-top: 35px;
+        border: none;
+        border-radius: 5px;
+        /* padding: 1px; */
+        line-height: 1.7;
+        width: 90px;
+        letter-spacing: 2px;
+        font-family: 'Signika Negative', sans-serif;
+        color: #fff !important;
+        background-color: #6c757d !important;
+    }
+
+    .sec3-mp-1 h2 {
+        width: 850px;
+        font-size: 1.6rem;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-bottom: 35px;
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    }
+
+    .post-det {
+        width: 650px;
+        display: flex;
+        margin-left: 20px;
+
+    }
+
+    .post-more-det {
+        width: 100%;
+        margin-top: 25px;
+
+    }
+
+    .post-more-det p {
+        width: 800px;
+        font-size: 1.5rem;
+        font-family: 'Signika Negative', sans-serif;
+        line-height: 1.6;
+        letter-spacing: 1.1px;
+        word-spacing: 1.4px;
+        color: #666666;
+
+        margin-left: 25px;
+    }
+
+    .read-more {
+        width: 120px;
+        font-size: 1.4rem;
+        margin-top: 15px;
+        margin-left: 650px;
+        margin-bottom: 20px;
+    }
+
+    .read-more a {
+        text-decoration: none;
+        cursor: pointer;
+        color: rgb(59, 59, 124);
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .read-more a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .next-pages-b {
+        width: 100%;
+        border: 1px solid rgb(160, 151, 151);
+        border-left: 0;
+        border-right: 0;
+        height: 120px;
+        /* margin-bottom: 25px; */
+        margin-top: 25px;
+        background-color: #fff;
+    }
+
+    /* ............. */
+
+    .next-pages-b {
+        width: 1000px;
+    }
+
+    /* ............. */
+
+    .section-4-all {
+        width: 1000px;
+        display: block;
+        margin-top: 15px;
+
+        background-color: #f2f2f2;
+    }
+
+    .section-4-12 {
+        /* display: flex; */
+        width: 827px;
+        height: 420px;
+        margin-left: 5px;
+        margin-bottom: 35px;
+        margin-top: 70px;
+        border-radius: 5px;
+        background-color: gray;
+    }
+
+    .section-4-1 button {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 95px;
+        padding: 5px;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(100, 34, 221);
+        letter-spacing: 1.5px;
+    }
+
+
+    .last-det-d {
+        width: 85%;
+        margin-top: 255px;
+        margin-left: 25px;
+
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .section4-4-12 {
+        display: flex;
+
+    }
+
+    .section4-121 {
+        width: 405px;
+        height: 230px;
+        margin-left: 10px;
+        margin-bottom: 35px;
+        border-radius: 5px;
+        background-color: red;
+    }
+
+    .section4-121 button {
+        width: 85px;
+        border: none;
+        border-radius: 2px;
+        margin-left: 15px;
+        margin-top: 18px;
+        color: white;
+        padding: 5px;
+        background-color: royalblue;
+    }
+
+    .section4-121-det {
+        margin-top: 45px;
+        width: 85%;
+        margin-left: 15px;
+        font-size: 1.2rem;
+        font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .section-4-l-side {
+        margin-left: 100px;
+    }
+
+    .section-4-r-side {
+        width: 820px;
+        height: 355px;
+        margin-top: 30px;
+        margin-left: 110px;
+        border-radius: 5px;
+        background-color: blue;
+    }
+
+    .button-f button {
+        width: 140px;
+        padding: 8px;
+        letter-spacing: 2px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .section-4-r-det {
+        margin-top: 150px;
+        width: 80%;
+        margin-left: 15px;
+        font-size: 1.6rem;
+    }
+
+
+    /* ......... */
+    .footer-and-creadit {
+        width: 1000px;
+        height: 380px;
+        margin-top: 25px;
+        background-color: #333333;
+    }
+
+    .creadit-part {
+        margin-top: 55px;
+        margin-left: 165px;
+        margin-bottom: 45px;
+
+    }
+
+    .connect-with-us-con {
+        margin-top: 85px;
+        margin-left: 45px;
+        font-size: 1.2rem;
+        letter-spacing: 0.2px;
+        word-spacing: 0.5px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .web-cat-all {
+        margin-left: 75px;
+    }
+
+}
